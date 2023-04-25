@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //1
+       let val = +prompt("Введите число",1);
+       alert('число ' + val + ' в ^7 = ' + (val**7));
+       //2      
+       let val2 = +prompt("Введите первое число",1);
+       let val3 = +prompt("Введите второе число",1);
+       alert('Среднее арифметическое чисел ' + val2 + ' и ' + val3 + ' = ' + `${(val2 + val3) / 2}`);
+       //3
+       let val4 = +prompt('Введите сторону квадрата в "м" ',1);
+       alert('Периметр квадрата = ' + `${val4 * 4}` + 'м');
+       //4
+       const mil = 0.621371;
+       let val5 = +prompt('Введите расстояние в "км"',1);
+       alert(val5 + 'км = ' + `${val5 * mil}` + 'миль'); 
+    </script>
+</body>
+</html>
